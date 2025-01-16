@@ -1,23 +1,16 @@
 Descrição do Projeto
-
-Este projeto é uma API REST construída utilizando o framework Fastify para desempenho otimizado e simplicidade no desenvolvimento de APIs. Ele também utiliza o Zod como provedor de tipagem para validação de dados e o @fastify/cors para gerenciar políticas de CORS, garantindo maior segurança e flexibilidade na comunicação entre clientes e servidores.
+Este projeto é uma API REST construída utilizando o framework Express para simplicidade e liberdade no desenvolvimento de APIs. A documentação da API é feita com Swagger , permitindo uma interface interativa para explorar os endpoints e testar as funcionalidades. O projeto também inclui suporte a middleware para tratamento de requisições e envio de dados em formato JSON.
 
 Tecnologias Utilizadas
-
 Node.js : Ambiente de execução JavaScript.
-Fastify : Framework web rápido e eficiente para construção de APIs.
-Zod : Biblioteca de validação e tipagem de dados.
-@fastify/cors : Plugin para configuração de CORS no Fastify.
+Express : Framework web minimalista e eficiente para construção de APIs.
+Swagger-UI-Express : Ferramenta para integrar e exibir a documentação da API baseada no padrão OpenAPI.
+Swagger : Padrão para documentação interativa de APIs REST.
 Funcionalidades
 Estrutura otimizada para criação de endpoints REST.
-Validação de dados de entrada utilizando Zod.
-Configuração de CORS para permitir acesso seguro à API.
+Documentação interativa e acessível via Swagger.
+Configuração inicial de rotas para listar e adicionar usuários.
 Base sólida para expansão com novas rotas e funcionalidades.
-
-Requisitos
-
-Node.js (versão 14 ou superior)
-npm 
 
 Autor : [Felipe Couto]
 Contato : [ mto.companhia@gmail.com ]
